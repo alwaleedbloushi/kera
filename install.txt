@@ -1,0 +1,23 @@
+_____________________________ KERA Web Application Installation _________________________________
+
+1- Download XAMPP- https://www.apachefriends.org/download.html
+2- Turn on Apache and MySQL
+3- Place "keraweb" inside C:\xampp\htdocs
+4- Run http://localhost/phpmyadmin/index.php in browser
+5- Go to "Import" tab
+6- Choose "kera.sql" from sql import
+7- Refresh phpmyadmin
+8- Go to http://localhost/keraweb/index.php
+
+Kera User Login __________________________________________________________________________________
+email: tester@kera.com
+password: 12345678
+
+Kera Company Login __________________________________________________________________________________
+email: testin@kera.com
+password: 12345678
+
+Notes ________________________________________________________________________________________________
+1. Registered Events have to be approved by system admin (database admin) then be added manually
+2. System admins will have to check feedback on the database
+3. Registerd events will be registered in the (events_approval) table to be approved or denied
